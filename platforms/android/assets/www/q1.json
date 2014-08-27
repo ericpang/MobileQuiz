@@ -1,0 +1,18 @@
+{
+	"introduction":"This quiz tests you on the types of birds in WRS", 
+	"questions":[
+		{"question":"What is the type of bird shown here?",
+		 "picture": "1.jpg", 
+		 "answers":["Tweety","Fairies","Cute","Parrot"],
+		 "correct":0},
+		{"question":"Why are birds so cute?", 
+		 "picture": null,
+		 "answers":["Magic","Fur","Meow","Chip chip!"],
+		 "correct":3},
+		{"question":"What food does birds eat?", 
+		 "picture": "2.jpg",
+		 "answers":["Rice","Beans","Worms","Chocs"],
+		 "correct":2}		 
+	],
+	"checkcode":"1234"
+}

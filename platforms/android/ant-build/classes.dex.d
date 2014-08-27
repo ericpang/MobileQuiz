@@ -1,0 +1,19 @@
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes.dex : \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\com\phonegap\plugins\barcodescanner\BarcodeScanner.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\org\apache\cordova\splashscreen\SplashScreen.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\BuildConfig.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\MobileQuiz.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\R$array.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\R$attr.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\R$color.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\R$dimen.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\R$drawable.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\R$id.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\R$layout.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\R$menu.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\R$raw.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\R$string.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\R$xml.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\classes\sg\edu\ite\mobilequiz\R.class \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\dexedLibs\classes-fa9529b01182a0dfaf1d250d7b41f7e3.jar \
+D:\xampp\htdocs\MobileQuiz\tmp\mobilequiz\platforms\android\ant-build\dexedLibs\com.google.zxing.client.android.captureactivity-e424e6827a5c4a8fcc9de7b810f44a01.jar \

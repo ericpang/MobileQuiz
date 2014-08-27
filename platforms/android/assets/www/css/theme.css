@@ -1,0 +1,8 @@
+/* CSS Document */
+.ui-header {
+    background: url(../img/zoosg.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:contain;  
+    margin-bottom: 5px;
+}

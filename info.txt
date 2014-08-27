@@ -1,0 +1,214 @@
+Node version: v0.10.28
+
+Cordova version: 0.21.7
+
+Config.xml file: 
+
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="sg.edu.ite.mobilequiz" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MobileQuiz</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon src="res/drawable/mylogo.png" />
+</widget>
+
+
+Plugins: 
+
+com.phonegap.plugins.barcodescanner
+
+Android platform:
+
+Available Android targets:
+----------
+id: 1 or "android-10"
+     Name: Android 2.3.3
+     Type: Platform
+     API level: 10
+     Revision: 2
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WVGA800 (default), WVGA854
+ Tag/ABIs : default/armeabi
+----------
+id: 2 or "android-14"
+     Name: Android 4.0
+     Type: Platform
+     API level: 14
+     Revision: 3
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800
+ Tag/ABIs : default/armeabi-v7a
+----------
+id: 3 or "android-15"
+     Name: Android 4.0.3
+     Type: Platform
+     API level: 15
+     Revision: 3
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800
+ Tag/ABIs : default/armeabi-v7a, default/mips, default/x86
+----------
+id: 4 or "android-16"
+     Name: Android 4.1.2
+     Type: Platform
+     API level: 16
+     Revision: 4
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : no ABIs.
+----------
+id: 5 or "android-17"
+     Name: Android 4.2.2
+     Type: Platform
+     API level: 17
+     Revision: 2
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : default/armeabi-v7a, default/x86
+----------
+id: 6 or "android-18"
+     Name: Android 4.3
+     Type: Platform
+     API level: 18
+     Revision: 2
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : no ABIs.
+----------
+id: 7 or "android-19"
+     Name: Android 4.4.2
+     Type: Platform
+     API level: 19
+     Revision: 3
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : default/armeabi-v7a, default/x86
+----------
+id: 8 or "android-20"
+     Name: Android 4.4W
+     Type: Platform
+     API level: 20
+     Revision: 1
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : no ABIs.
+----------
+id: 9 or "android-L"
+     Name: Android L (Preview)
+     Type: Platform
+     API level: L
+     Revision: 3
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : android-tv/armeabi-v7a, android-tv/x86, default/armeabi-v7a, default/x86
+----------
+id: 10 or "Google Inc.:Google APIs:14"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 2
+     Description: Android + Google APIs
+     Based on Android 4.0 (API level 14)
+     Libraries:
+      * com.android.future.usb.accessory (usb.jar)
+          API for USB Accessories
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: QVGA, WQVGA400, WXGA720, WSVGA, WVGA854, WVGA800 (default), HVGA, WQVGA432, WXGA800
+ Tag/ABIs : default/armeabi-v7a
+----------
+id: 11 or "Google Inc.:Google APIs:15"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 2
+     Description: Android + Google APIs
+     Based on Android 4.0.3 (API level 15)
+     Libraries:
+      * com.google.android.media.effects (effects.jar)
+          Collection of video effects
+      * com.android.future.usb.accessory (usb.jar)
+          API for USB Accessories
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: WQVGA432, WXGA720, HVGA, WQVGA400, WXGA800, WSVGA, WVGA854, WVGA800 (default), QVGA
+ Tag/ABIs : default/armeabi-v7a
+----------
+id: 12 or "Google Inc.:Google APIs:17"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 3
+     Description: Android + Google APIs
+     Based on Android 4.2.2 (API level 17)
+     Libraries:
+      * com.google.android.media.effects (effects.jar)
+          Collection of video effects
+      * com.android.future.usb.accessory (usb.jar)
+          API for USB Accessories
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: WQVGA400, WXGA800, QVGA, HVGA, WSVGA, WXGA800-7in, WVGA854, WXGA720, WQVGA432, WVGA800 (default)
+ Tag/ABIs : default/armeabi-v7a
+----------
+id: 13 or "Google Inc.:Google APIs:18"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 3
+     Description: Android + Google APIs
+     Based on Android 4.3 (API level 18)
+     Libraries:
+      * com.google.android.media.effects (effects.jar)
+          Collection of video effects
+      * com.android.future.usb.accessory (usb.jar)
+          API for USB Accessories
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: WXGA800, WXGA720, WVGA800 (default), WQVGA400, HVGA, WQVGA432, QVGA, WSVGA, WXGA800-7in, WVGA854
+ Tag/ABIs : default/armeabi-v7a
+----------
+id: 14 or "Google Inc.:Glass Development Kit Preview:19"
+     Name: Glass Development Kit Preview
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 8
+     Description: Preview of the Glass Development Kit
+     Based on Android 4.4.2 (API level 19)
+     Libraries:
+      * com.google.android.glass (gdk.jar)
+          APIs for Glass Development Kit Preview
+     Skins: QVGA, WXGA800-7in, WVGA854, WVGA800 (default), WSVGA, WQVGA400, HVGA, WXGA720, WQVGA432, WXGA800
+ Tag/ABIs : no ABIs.
+----------
+id: 15 or "Google Inc.:Google APIs:19"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 7
+     Description: Android + Google APIs
+     Based on Android 4.4.2 (API level 19)
+     Libraries:
+      * com.google.android.media.effects (effects.jar)
+          Collection of video effects
+      * com.android.future.usb.accessory (usb.jar)
+          API for USB Accessories
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: QVGA, WXGA800-7in, WVGA854, WVGA800 (default), WSVGA, WQVGA400, HVGA, WXGA720, WQVGA432, WXGA800
+ Tag/ABIs : default/armeabi-v7a
+----------
+id: 16 or "Google Inc.:Google APIs (x86 System Image):19"
+     Name: Google APIs (x86 System Image)
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 7
+     Description: Android x86 + Google APIs
+     Based on Android 4.4.2 (API level 19)
+     Libraries:
+      * com.google.android.media.effects (effects.jar)
+          Collection of video effects
+      * com.android.future.usb.accessory (usb.jar)
+          API for USB Accessories
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: QVGA, WXGA800-7in, WVGA854, WVGA800 (default), WSVGA, WQVGA400, HVGA, WXGA720, WQVGA432, WXGA800
+ Tag/ABIs : default/x86
+
